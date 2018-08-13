@@ -1,0 +1,199 @@
+/**/
+body {
+	background-color: #f5f6fa;
+}
+
+/**/
+
+
+/* START ADMIN LOGIN FORM */
+
+.db-button a {
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.frontend-button a {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.admin-login {
+	width: 300px;
+	margin: auto;
+	margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.admin-login input {
+	margin-top: 5px;
+}
+
+/* END ADMIN LOGIN FORM */
+
+/*START DB CREATION PAGE*/
+.db-creation {
+    margin-bottom: 80px;
+}
+
+/*END DB CREATION PAGE*/
+
+/*START DASHBOARD*/
+
+.upper-dashboard {
+    margin-bottom: 80px;
+}
+
+.upper-dashboard a {
+	text-decoration: none;
+}
+
+.dashboard-left {
+	background-color: #ff7300;
+    padding: 45px;
+    margin-top: 50px;
+    border-radius: 40px;
+    color: #FFF;
+    margin-bottom: 40px
+}
+
+.dashboard-mid {
+    background-color: #26c529;
+    padding: 45px;
+    margin-top: 50px;
+    border-radius: 40px;
+    color: #FFF;
+    margin-bottom: 40px
+}
+
+.dashboard-right {
+	background-color: #2487d8;
+	padding: 45px;
+    margin-top: 50px;
+    border-radius: 40px;
+    color: #FFF;
+    margin-bottom: 40px
+}
+
+.dashboard-left span,
+.dashboard-right span,
+.dashboard-mid span {
+	font-size: 140px;
+}	
+
+/*END DASHBOARD*/
+
+/*START ADMIN NAV BAR*/
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-inverse {
+    background-color: #0abde3;
+    border-color: #0abde3;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-brand:hover {
+	color: #8395a7;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #8395a7;
+}
+
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #48dbfb;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-collapse, 
+.navbar-inverse .navbar-form {
+    border-color: #ffffff;
+}
+
+/*END ADMIN NAV BAR*/
+
+/*START ADMINS MANAGE TABLE*/
+	
+.container-table {
+    margin-bottom: 80px;
+}
+
+.main-table {
+	background-color: #FFF;
+	margin-top: 20px;
+}
+
+.main-table tr:nth-child(odd) {
+	background-color: #EEE;
+}
+
+.main-table tr:first-child td {
+	background-color: #574b90;
+	color: #FFF;
+	font-weight: bold;
+}
+
+/*END ADMINS MANAGE TABLE*/
+
+/*START ADD FORMS*/
+
+.add-form {
+    margin-bottom: 80px;
+}
+
+.add-form span {
+	position: absolute;
+    top: 6px;
+    left: 122px;
+    color: #e81c1c;
+}
+
+/*END ADD FORMS*/
+
+/*START EDIT FORMS*/
+.edit-form {
+    margin-bottom: 80px;
+}
+/*END EDIT FORMS*/
+
+/*START DOCTORS ADD FORM*/
+
+.radio-input {
+	top: 7px;
+}
+
+/*END DOCTORS ADD FORM*/
+
+
+
+
+/*START FOOTER*/
+/*To Prevent overflow of footer on other elements put margin-bottom to those elements*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d2d0d0;
+    text-align: center;
+    height: 50px;
+}
+
+.footer p {
+    margin-top: 12px;
+}
+/*END FOOTER*/
