@@ -1,0 +1,223 @@
+/**/
+body {
+	background-color: #f5f6fa;
+}
+
+/**/
+
+.background-image {
+	background-image: url("../../Includes/Images/image1.jpg");
+	height: 750px;
+	background-repeat: no-repeat;
+}
+
+
+/*START INDEX PAGE*/
+
+.doc-login {
+	margin-top: 10px;
+    margin-right: 15px;
+    background-color: #505050;
+    border-color: #848484;
+    color: #fff;
+}
+
+.doc-login:hover {
+	margin-top: 10px;
+    margin-right: 15px;
+    background-color: #d63031;
+    border-color: #d63031;
+    color: #fff;
+}
+
+
+
+.index-container {
+	margin-bottom: 80px;
+}
+
+.my-panel {
+	max-width: 500px;
+	margin: auto;
+	margin-top: 80px;
+}
+
+.my-panel h2 {
+	color: #fff;
+}
+
+.my-panel textarea {
+	resize: vertical;
+}
+
+.main-panel {
+	border-color: #34b59c;
+	background-color: #ffffff8f;
+}
+
+.main-panel>.p-head {
+	background-color: #34b59c;
+    border-color: #34b59c;
+    color: #fff;
+}
+
+.submit-custom {
+	background-color: #34b59c;
+    border-color: #34b59c;
+    color: #fff;
+}
+
+.submit-custom:hover {
+	background-color: #288a77;
+    border-color: #288a77;
+    color: #fff;
+}
+
+
+/*END INDEX PAGE*/
+
+/*STAR NAVBAR*/
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #d63031cc;
+}
+/*END NAVBAR*/
+
+/*START DOCTOR HOME PAGE*/
+
+.navbar-default: .navbar-brand: {
+    color: #5e5e5e;
+}
+
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+    color: #d63031;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #d63031;
+    background-color: transparent;
+}
+
+.main-table {
+	margin-bottom: 80px;
+}
+
+.main-table tr:nth-child(odd) {
+	background-color: #EEE;
+}
+
+.main-table tr:first-child {
+	background-color: #d63031;
+	color: #fff;
+	font-weight: bold;
+}
+
+.condition {
+	max-width: 300px;
+}
+
+/*END DOCTOR HOME PAGE*/
+
+/*START DOCTOR PROFILE*/
+
+.profile-image {
+	margin-bottom: 30px;
+}
+
+.profile-image img {
+	width: 170px;
+	height: 150px;
+	margin: auto;
+	margin-bottom: -12px;
+	margin-top: 30px;
+}
+
+.panel-red {
+	border-color: #d63031;
+	max-width: 500px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.panel-heading-red {
+	border-color: #d63031;
+	background-color: #d63031;
+	color: #fff;
+}
+
+.panel-style span {
+	font-weight: bold;
+	color: #d63031;
+}
+
+.panel-style textarea {
+	height: 200px;
+	resize: vertical;
+}
+
+/*END DOCTOR PROFILE*/
+
+/*START CONTACT FORM*/
+.contact-form {
+	margin-top: 85px;
+	margin-bottom: 80px;
+}
+
+.contact-form textarea {
+	max-width: 700px;
+    margin: auto;
+    height: 200px;
+    resize: vertical;
+    border-color: #d63031;
+}
+
+.contact-form input {
+	margin-top: 20px;
+	background-color: #d63031;
+    border-color: #d63031;
+    color: #fff;
+}
+
+.contact-form input:hover {
+	margin-top: 20px;
+	background-color: #c12e2f;
+    border-color: #c12e2f;
+    color: #fff;
+}
+
+.custom-alert {
+	margin-top: 30px;
+}
+
+.custom-alert-succ {
+	max-width: 500px;
+	margin: auto;
+}
+
+.custom-alert-dang {
+	max-width: 500px;
+	margin: auto;
+}
+
+/*END CONTACT FORM*/
+
+/*START FOOTER*/
+/*To Prevent overflow of footer on other elements put margin-bottom to those elements*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d2d0d0;
+    text-align: center;
+    height: 50px;
+}
+
+.footer p {
+    margin-top: 12px;
+}
+/*END FOOTER*/
